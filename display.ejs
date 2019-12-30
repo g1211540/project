@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>display</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+</head>
+
+
+<header class="w3-container w3-teal">
+  <h1>Create New Restaurant Documents</h1>
+</header>
+
+<body>
+
+<div class="w3-container w3-teal w3-half w3-margin-top">
+  <h1></h1>
+ 
+<form action= "/display" method= "post">
+<p><label class="w3-label w3-validate">Name: </label></p>
+<p><label class="w3-label w3-validate">Borough: </label></p>
+<p><label class="w3-label w3-validate">Cuisine: </label></p>
+<p><label class="w3-label w3-validate">Street: </label></p>
+<p><label class="w3-label w3-validate">Building: </label></p>
+<p><label class="w3-label w3-validate">Zipcode: </label></p>
+<p><label class="w3-label w3-validate">Latitude: </label></p>
+<p><label class="w3-label w3-validate">Longitude: </label></p>
+<p><label class="w3-label w3-validate">Rating: </label></p>
+
+<a href="Rate/rate.ejs" style="text-decoration: none">
+    <button class="w3-btn w3-section w3-teal w3-ripple">Rate</button>
+</a>
+<a href="Update/update.ejs" style="text-decoration: none">
+  <button class="w3-btn w3-section w3-teal w3-ripple">Edit</button>
+</a>
+<a href="/remove?_id=5ddcd626eee16a00785a4cf7" style="text-decoration: none">
+  <button class="w3-btn w3-section w3-teal w3-ripple">Delete</button>
+</a>
+<a href="display.ejs" style="text-decoration: none">
+<button class="w3-btn w3-section w3-teal w3-ripple" onclick="goBack()">Go Back</button>
+</a>
+
+</div>
+</body>
+</html>
