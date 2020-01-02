@@ -1,0 +1,35 @@
+<<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<body>
+    <div class="w3-container" >
+        <h1><%=photo[0].title%></h1>
+        <h1><%=photo[0].description%></h1>
+    </div>
+    <img src=" data:<%=photo[0].mimetype%>;base64, <%=photo[0].image%>" style="width:30%" id="image"/>
+    <div>
+    <table style="width:30%">
+    <tr>
+    <td> Make: </td> 
+    <td> <span id ="make"> </span></td>
+    </tr>
+    <tr>
+    <td> Model: </td>
+    <td> <pre id = "model"></pre> </td>
+    </tr>
+    <tr>
+    <td> Created on: </td>
+    <td> <pre id = "dataspan"></pre> </td>
+    </tr>
+    <tr>
+    <td> Location: </td>  
+    <td> <pre id = "dataspan"></pre> </td>
+    </tr>
+    </table>
+    </div>
+     
+    </body>
+
+</html>
