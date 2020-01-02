@@ -1,0 +1,17 @@
+{
+	"name": "Base64",
+	"description": "COMPS381F - Base64 Example",
+	"version": "1.0.0",
+	"dependencies": {
+		"ejs": "*",
+		"exif": "^0.6.0",
+		"exif-js": "^2.3.0",
+		"express": "*",
+		"formidable": "latest",
+		"mongodb": "3.1"
+	},
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engine": "*"
+}
